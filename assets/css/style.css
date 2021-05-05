@@ -71,6 +71,20 @@ header{
   background-image: url('../imgs/bg.jpg');
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+}
+
+.banner .sliders{
+  width:1000vh;
+  height:100%;
+  background-color: red;
+}
+
+.banner .slide{
+  display:inline-block;
+  width:100vw;
+  height:100%;
+
 }
 
 
