@@ -152,9 +152,92 @@ header{
 }
 
 .default{
-  background-color:red;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.default .section-title,
+.default .section-desc{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
+.default .section-title{
+  font-size: 20px;
+
+}
+
+.default .section-desc{
+  font-size:12px;
+  color:#CCC;
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+}
+
+.default .section-body{
+  margin:auto;
+  max-width:1140px;
+  min-height:100px;
+  background:rgb(255, 254, 254);
+}
+
+.default.light{
+  background-color: rgb(255, 255, 255);
+}
+
+.default.light .section-title,
+.default.light .section-body{
+  color:black;
+}
+
+.default.dark .section-title,
+.default.dark .section-body{
+  color:white;
+}
+
+.default.dark{
+  background-color:black;
+}
+
+
+
+.section--aboutus{
+  display: flex;
+}
+
+.aboutus--left{
+  flex: 1;
+}
+.aboutus--right{
+  width:500px;
+  background-color: red;
+  text-align: center;
+
+}
+
+.aboutus--right img{
+  width: 200px;
+  box-shadow: 0px 5px 10px gray;
+}
+
+.button{
+  display:inline-block;
+  background-color:#B28756;
+  color:white;
+  text-transform: uppercase;
+  font-size:15px;
+  border-radius:10px;
+  text-decoration: none;
+  padding:10px 30px;
+  margin-top:20px;
+  font-weight:600;
+}
+.aboutus--left p {
+  font-size:14px;
+  line-height:25px;
+}
 
 
 
