@@ -304,7 +304,7 @@ header{
   border-left: 0;
 }
 
-.section-projects-photo{
+.section-projects--photos{
   width:100vw;
   max-width: 1140px;
   margin-top: 20px;
@@ -312,6 +312,10 @@ header{
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.section-projects-photo{
+  width:280px;
 }
 
 
