@@ -308,7 +308,7 @@ header{
   width:100vw;
   max-width: 1140px;
   margin-top: 20px;
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -316,6 +316,42 @@ header{
 
 .section-projects-photo{
   width:280px;
+}
+
+.section-projetcs--photoarea {
+  margin:10px;
+  width:260px;
+  height: 160px;
+}
+
+.section-projetcs--photoarea img{
+  width:inherit;
+  height:inherit;
+}
+
+.section-projects--photoinfo {
+ position:absolute;
+ width:inherit;
+ height: inherit;
+ background-color: rgba(0, 0, 0, 0.5);
+ display:none;
+ justify-content:center;
+ align-items:center;
+ color:#CCC;
+ flex-direction:column;
+}
+
+.section-projetcs--photoarea:hover .section-projects--photoinfo{
+  display:flex;
+}
+
+.section-buton--photo {
+  text-decoration: none;
+  background-color:#B28756;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
 }
 
 
