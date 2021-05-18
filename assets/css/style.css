@@ -513,8 +513,7 @@ margin:auto;
 .section-client-pointer .pointers.active{
   background-color:#B28756;
 }
-.section-map{
-  background-image: url('assets\imgs\mapa.jpg');
+.section-map img{
   background-size: cover;
   background-position: center;
 }
